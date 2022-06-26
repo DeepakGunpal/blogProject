@@ -19,7 +19,7 @@ const createAuthor = async function (req, res) {
 
         //auto generate password if password is missing
         if (!authorData.password) {
-            // <---Obviously copied from google----> //
+           
             function password_generator(len) {
                 let length = (len) ? (len) : (10);
                 let string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
